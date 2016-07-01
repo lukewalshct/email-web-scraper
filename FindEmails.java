@@ -26,14 +26,3 @@ public class FindEmails
 		ef.printResults();
 	}	
 }
-
-/*
-Improvements:
-1. Look into getting headless browser library to make it run faster (rendering is painfully slow)
-2. Look into different library that better handles dynamic javascript injections (some emails may be missed
- using current approach)
-3. Look into multi-threading to speed up performance
-4. More exact email regex matching
-5. unit testing
-
-*/

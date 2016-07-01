@@ -9,8 +9,9 @@ line input, and searches through discoverable pages in that domain name and prin
 # Setup
 
 This project utilizes two additional libraries:
--Selenium (for the web driver)
--Apache Commons URLValidator
+
+Selenium (for the web driver)
+Apache Commons URLValidator
 
 The following is a set of instructions to run this program on your compunter:
 
@@ -37,16 +38,17 @@ The usage is as follows:
 FindEmails domain_name
 
 The domain name must satisfy these requirements:
--Is a valid domain name
--Is the home page of the domain (e.x. mit.edu is acceptable, but mit.edu/aboutmit is not)
--Is a supported protocol (http or https)
+
+Is a valid domain name
+Is the home page of the domain (e.x. mit.edu is acceptable, but mit.edu/aboutmit is not)
+Is a supported protocol (http or https)
 
 
 #Improvements/Next Steps
 
 Some potential ideas for improving the project:
 
-1. Investiage using a headless browser rather than ChromeDriver, as rendering slows down
+1. Investigate using a headless browser rather than ChromeDriver, as rendering slows down
   the crawler.
 2. Explore using multi-threading to speed up the crawling.
 3. Explore other libraries that may better handle dynamic content w/JavaScript.

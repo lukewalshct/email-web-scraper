@@ -10,8 +10,8 @@ line input, and searches through discoverable pages in that domain name and prin
 
 This project utilizes two additional libraries:
 
-Selenium (for the web driver)
-Apache Commons URLValidator
+1. Selenium (for the web driver)
+2. Apache Commons URLValidator
 
 The following is a set of instructions to run this program on your compunter:
 
@@ -39,9 +39,9 @@ FindEmails domain_name
 
 The domain name must satisfy these requirements:
 
-Is a valid domain name
-Is the home page of the domain (e.x. mit.edu is acceptable, but mit.edu/aboutmit is not)
-Is a supported protocol (http or https)
+1. Is a valid domain name
+2. Is the home page of the domain (e.x. mit.edu is acceptable, but mit.edu/aboutmit is not)
+3. Is a supported protocol (http or https)
 
 
 #Improvements/Next Steps
